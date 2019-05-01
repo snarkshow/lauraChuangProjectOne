@@ -416,7 +416,23 @@ a.readMore:hover{
 
     .mobileArticleText1,
     .mobileArticleText2{
-        width: 65%;
+        width: 60%;
+    }
+
+    .mobileArticleText1{
+        float: right;
+    }
+
+    .mobileArticleText2{
+        float: left;
+    }
+
+}  
+@media(max-width: 1800px) and (min-width: 1600px){
+
+    .mobileArticleText1,
+    .mobileArticleText2{
+        width: 55%;
     }
 
     .mobileArticleText1{
