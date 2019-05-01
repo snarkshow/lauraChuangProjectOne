@@ -24,26 +24,29 @@
                 <li><a href="">Contact</a></li>
             </ul>
         </nav>
-        <i class="fa fa-bars hamburgerMenu"></i>
+        <a href="#">
+            <i class="fa fa-bars hamburgerMenu" aria-hidden="true"></i>
+        </a>  
+        <label for="mobileSiteMenu" class="visuallyHidden">Mobile Site Menu</label>
         <h1>-Aro-<br>
             <span>ra</span>
             <span class="headerYellow">Jewelers</span>
         </h1>
         <ul class="social">
             <li>
-                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
                 <label for="instagram" class="visuallyHidden">instagram</label>
             </li>
             <li>
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
                 <label for="facebook" class="visuallyHidden">facebook</label>
             </li>
             <li>
-                <a href="#"><i class="fab fa-snapchat-ghost"></i></a>
+                <a href="#"><i class="fab fa-snapchat-ghost" aria-hidden="true"></i></a>
                 <label for="snapchat" class="visuallyHidden">snapchat</label>
             </li>
             <li>
-                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
                 <label for="twitter" class="visuallyHidden">twitter</label>
             </li>
         </ul>
@@ -52,7 +55,7 @@
         <section class="description">
             <div class="wrapper clearfix">
                 <figure>
-                    <img src="assets/image-6.png" alt="">
+                    <img src="assets/image-6.png" alt="A woman's hands holding three beaded rings, over a box of jewelry">
                 </figure>
                 <article class="handCrafted">
                     <h2>hand crafted</h2>
@@ -74,13 +77,13 @@
                 <h2>latest collection</h2>
                 <div class="gallery">
                     <figure>
-                        <img src="assets/image-2_2.png" alt="">
+                        <img src="assets/image-2_2.png" alt="Closeup of silver and gold jewelled pendants dangling from long chains">
                     </figure>
                     <figure>
-                        <img src="assets/image-4.png" alt="">
+                        <img src="assets/image-4.png" alt="Dramatic shadowy shot of two intertwined rings">
                     </figure>
                     <figure class="mobileHidden">
-                        <img src="assets/image-3.png" alt="">
+                        <img src="assets/image-3.png" alt="Closeup of pearl pendants and earrings">
                     </figure>
                 </div>
             </div>
@@ -88,46 +91,56 @@
 
         <aside class="links">
             <div class="wrapper clearfix">
-                <div class="linkItem">
-                    <i class="far fa-images"></i><br>
-                    <h3><a href="">catalogue</a></h3>
-                </div>
-                <div class="linkItem">
-                    <i class="fas fa-calendar-alt"></i><br>
-                    <h3><a href="">events</a></h3>
-                </div>
-                <div class="linkItem">
-                    <i class="far fa-handshake"></i><br>
-                    <h3><a href="">collaborations</a></h3>
-                </div>
-
+                <ul class="secondNav">
+                    <li class="linkItem">
+                        <a href="#">
+                            <i class="far fa-images" aria-hidden="true"></i>
+                            <span class="linkCaption">catalogue</span>
+                        </a>
+                    </li>
+                    <li class="linkItem">
+                        <a href="">
+                            <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+                            <span class="linkCaption">events</span>
+                        </a>
+                    </li>
+                    <li class="linkItem">
+                        <a href="">
+                            <i class="far fa-handshake" aria-hidden="true"></i>
+                            <span class="linkCaption">collaborations</span>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </aside>
         <section class="articlesWideScreen">
             <div class="articles">
                 <div class="mobileArticle1">
-                    <img src="assets/image-2.png" alt="">
+                    <img src="assets/image-2.png" alt="Two large pendants on gold chains on a blonde womans neck">
                 </div>
                 <article class="clearfix fullArticle1">
                     <div class="article1 half">
-                        <h2>sustainable <span>materials</span></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor a elementum eleifend. Vestibulum
-                            consequat vestibulum felis pharetra luctus. Quisque interdum orci quis convallis dapibus. Vestibulum vitae tincidunt
-                            sem, a blandit sem. Quisque interdum orci.</p>
-                        <a href="#" class="readMore">read more</a>
+                        <div class="mobileArticleText1">
+                            <h2>sustainable <span>materials</span></h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor a elementum eleifend. Vestibulum
+                                consequat vestibulum felis pharetra luctus. Quisque interdum orci quis convallis dapibus. Vestibulum vitae tincidunt
+                                sem, a blandit sem. Quisque interdum orci.</p>
+                            <a href="#" class="readMore">read more</a>
+                        </div>
                     </div>
                 </article>
                 <article class="clearfix fullArticle2">
                     <div class="mobileArticle2">
-                        <img src="assets/image-2-copy.png" alt="">
+                        <img src="assets/image-2-copy.png" alt="Closeup of a woman's hand wearing a turqoise wristcuff and turqoise beaded rings">
                     </div>
                     <div class="article2 half">
-                        <h2>mix & match</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor a elementum eleifend. Vestibulum
-                            consequat vestibulum felis pharetra luctus. Quisque interdum orci quis convallis dapibus. Vestibulum vitae tincidunt
-                            sem, a blandit sem. Quisque interdum orci.</p>
-                        <a href="#" class="readMore">read more</a>
+                        <div class="mobileArticleText2">
+                            <h2>mix & match</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor a elementum eleifend. Vestibulum
+                                consequat vestibulum felis pharetra luctus. Quisque interdum orci quis convallis dapibus. Vestibulum vitae tincidunt
+                                sem, a blandit sem. Quisque interdum orci.</p>
+                            <a href="#" class="readMore">read more</a>
+                        </div>
                     </div>
                 </article>
             </div>
@@ -143,18 +156,19 @@
                     <li><a href="">Contact</a></li>
                 </ul>
                 <div class="footerSubscribe footerSection">
-                    <h4>stay updated</h4>
+                    <h3>stay updated</h3>
                     <p>Subscribe to our newsletter to stay updated.</p>
                     <section class="emailForm">
-                        <input type="email" placeholder="email address" id="email" required/>
-                        <label for="email" class="visuallyHidden">email</label>
-                        <button type="submit" value="Subscribe">Subscribe</button>
+                        <form>
+                            <input type="email" placeholder="email address" id="email" required/>
+                            <label for="email" class="visuallyHidden">email</label>
+                            <button type="submit" value="Subscribe">Subscribe</button>
+                        </form>
                     </section>
-             
                 </div>
                 <div class="footerContact footerSection">
-                    <h4>contact</h4>
-                    <p>info@email.com | 123 - 456 - 7890</p>
+                    <h3>contact</h3>
+                    <p><a href="mailto:info@email.com">info@email.com</a> | 123 - 456 - 7890</p>
                     <p>123 some road, Toronto ON</p>
                     <p>A5A 5A5, Canada</p>
                 </div>
